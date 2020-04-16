@@ -12,5 +12,6 @@
 rasp_serial.py 코드 실행을 위해서는 코드 가장 위에 주석처리된 코드를 복사에 cmd창을 이용해 설치해야한다.
 
   sudo pip3 install adafruit-circuitpython-PCA9685
+  
   sudo pip3 install Adafruit_PCA9685
   
