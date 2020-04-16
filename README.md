@@ -1,6 +1,6 @@
 # PIRL_intern_project_automobile_rc_car
 
-1. code 목록
+### 1. code 목록
 - main.py : 최종적으로 command에서 실행시키는 파일
 - rasp_serial.py : RC car의 steering 및 throttle을 조정하는 파일
 - actuator.py : rasp_serial.py에서 사용될 함수 정의 파일
@@ -8,7 +8,7 @@
 - Camera.py : raspberrypi 카메라 크기 및 전송 frame수 등 카메라 설정 파일
 - server_connect.py : server와 연결 시 실행되는 파일
 
-2. 코드 실행
+### 2. 코드 실행
 1) 라즈베리파이용 외장배터리 연결 후 초록불이 깜빡거리지 않을 때까지 대기
 2) 라즈베리파이용 외장배터리 연결 후 ESC(검정색 모듈)를 on으로 변경
 3) 서버에서 라즈베리파이로 원격 접속: ssh pi@192.168.0.7 .
@@ -28,6 +28,6 @@ rasp_serial.py 코드 실행을 위해서는 코드 가장 위에 주석처리�
   
 donkey car의 경우 I2C 통신을 하기 때문에 raspberrypi가 I2C통신이 가능하도록 설정해줘야 한다.
 
-참조링크 : [link](https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial?_ga=2.253783691.2068425467.1587036675-1985686237.1587036675, "ref link")
+참조링크 : <https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial?_ga=2.253783691.2068425467.1587036675-1985686237.1587036675>
 
   
