@@ -25,8 +25,7 @@
 ```
   sudo pip3 install adafruit-circuitpython-PCA9685
   
-  sudo pip3 install Adafruit_PCA9685
-  
+  sudo pip3 install Adafruit_PCA9685  
 ```
 
 #### 2. donkey car의 경우 I2C 통신을 하기 때문에 raspberrypi가 I2C통신이 가능하도록 설정해줘야 한다.
