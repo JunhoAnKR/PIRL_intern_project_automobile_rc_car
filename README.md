@@ -20,12 +20,16 @@
 
 
 ## ! 주의
-#### 1. rasp_serial.py 코드 실행을 위해서는 코드 가장 위에 주석처리된 코드를 복사에 cmd창을 이용해 설치해야한다. :
+#### 1. rasp_serial.py 코드 실행을 위해서는 코드 가장 위에 주석처리된 코드를 복사에 cmd창을 이용해 설치해야한다.
+
+This is a normal paragraph:
 
   sudo pip3 install adafruit-circuitpython-PCA9685
   
   sudo pip3 install Adafruit_PCA9685
   
+end code.
+
 #### 2. donkey car의 경우 I2C 통신을 하기 때문에 raspberrypi가 I2C통신이 가능하도록 설정해줘야 한다.
 
 참조 링크 : <https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial?_ga=2.253783691.2068425467.1587036675-1985686237.1587036675>
